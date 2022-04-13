@@ -4,4 +4,5 @@ let range2 = strip.range(4, 7)
 basic.forever(function () {
     range.showColor(neopixel.colors(NeoPixelColors.Red))
     range2.showColor(neopixel.rgb(randint(0, 65), randint(0, 65), randint(0, 65)))
+    basic.pause(100)
 })
